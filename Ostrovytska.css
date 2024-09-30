@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comic Sans MS;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.block {
+    padding: 2vw;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.block-1 {
+    background-color: #78866B;
+    min-height: 150px;
+    flex: 1;
+    position: relative;
+    text-align: left;
+}
+
+.block-x {
+    top: 2vw;
+    right: 2vw;
+    position: absolute;
+    padding: 1vw;
+    width: calc(100% - 4vw);
+    max-width: 300px;
+    min-width: 100px;
+    max-height: 100%;
+    border: none;
+    background-color: #78866B;
+    color: #FFD700;
+    overflow: auto;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.block-2{
+    background-color: #3E2723;
+    color: #FFD700;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.block-4{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #78866B;
+
+}
+
+.block-6{
+    background-color: #78866B;
+    font-size: 1.5vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block-3 {
+    font-size: 1.5vw;
+    background-color: #3E2723;
+    overflow: auto;
+    flex: 2;
+}
+
+.block-5 {
+    padding: 0;
+    margin: 0;
+    flex: 2;
+}
+
+.block-5 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.block-7 {
+    flex: 1;
+    position: relative;
+    background-color: #78866B;
+    text-align: left;
+    padding: 2vw;
+    min-height: 300px;        
+    position: relative;
+    padding-bottom: 80px;
+    overflow: auto;
+}
+
+.text-content {
+    flex-grow: 1;
+    padding-bottom: 2vw;
+}
+
+.block-y {
+    padding: 1vw;
+    width: calc(100% - 4vw);
+    max-width: 300px;
+    min-width: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    overflow: auto;
+    border: none;
+    background-color: #78866B;
+    color: #FFD700;
+    overflow: auto;
+}
+
+ol, ul {
+    padding-left: 20px; 
+    margin: 0 auto;
+    max-width: 80%; 
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.5vw;
+    padding-top: 1.5rem;
+}
+
+h2{
+    font-size: 1.5vw;
+}
+
+a{
+    color: #FFD700;
+}
